@@ -12,7 +12,7 @@ for ((i=0; i<${#files[@]}; i++)); do
     if [[ "$i" -ne 0 ]]; then
         # add a newline between files
         echo
-    fi    
+    fi
     echo "##### ${file} #####"
     if [[ -n "${description}" ]]; then
         echo "# ${description}"
